@@ -1,13 +1,24 @@
 {
   "name": "ugc-maroc-backend",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "description": "Backend UGC Maroc - API Express déployée sur Render",
   "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "resend": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
   "engines": {
     "node": "22.x"
   },
-  "dependencies": {
-    "resend": "^3.5.0"
-  }
+  "author": "Nabil",
+  "license": "MIT"
 }
